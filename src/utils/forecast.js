@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
                 'It is currently: ' + body.currently.temperature + ' degrees out. ' +
                 'The high today is ' + body.daily.data[0].temperatureHigh +
                 ' with a low of ' + body.daily.data[0].temperatureLow +
-                ' .gThere is a ' + body.currently.precipProbability + '% chance of rain.');
+                ' .There is a ' + body.currently.precipProbability + '% chance of rain.');
         }
     })
 };
